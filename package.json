@@ -20,9 +20,9 @@
    ],
    "type": "module",
    "scripts": {
-      "start": "bun src/bun.ts",
-      "dev": "bun src/bun.ts --watch",
-      "compile": "bun build --compile --target=bun --minify --watch src/main.ts --outfile dist/main.exe"
+      "start": "bun src/main.ts",
+      "dev": "bun src/main.ts --watch",
+      "compile": "bun build --compile --target=bun --minify --watch src/main.ts --outfile 'dist/MCPE-Script-Creater.exe'"
    },
    "bin": {
       "create-mcpe-script-test": "dist/main.exe"
