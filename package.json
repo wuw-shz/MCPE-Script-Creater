@@ -1,0 +1,38 @@
+{
+   "name": "create-mcpe-script-test",
+   "version": "1.7.8",
+   "description": "A tool to create simple MCBE-Script projects",
+   "author": "@wuw.sh",
+   "license": "MIT",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/wuw-shz/MCPE-Script-Creater"
+   },
+   "homepage": "https://github.com/wuw-shz/MCPE-Script-Creater#readme",
+   "bugs": {
+      "url": "https://github.com/wuw-shz/MCPE-Script-Creater/issues"
+   },
+   "keywords": [
+      "minecraft",
+      "scripting",
+      "addon",
+      "mcpe"
+   ],
+   "type": "module",
+   "scripts": {
+      "start": "bun src/bun.ts",
+      "dev": "bun src/bun.ts --watch",
+      "compile": "bun build --compile --target=bun --minify --watch src/main.ts --outfile dist/main.exe"
+   },
+   "bin": {
+      "create-mcpe-script-test": "dist/main.exe"
+   },
+   "devDependencies": {
+      "@types/prompts": "latest",
+      "@types/bun": "latest",
+      "picocolors": "latest",
+      "prompts": "latest",
+      "ora": "latest",
+      "bun": "latest"
+   }
+}
