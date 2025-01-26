@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "create-mcpe-script-test",
+      "name": "create-mcpe-script",
       "devDependencies": {
         "@types/bun": "latest",
         "@types/prompts": "latest",

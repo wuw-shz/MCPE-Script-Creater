@@ -1,5 +1,6 @@
 # lock files
 package-lock.json
+bun.lock
 
 # Dependency directories
 node_modules/

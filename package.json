@@ -1,6 +1,6 @@
 {
    "name": "create-mcpe-script",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "A tool to create simple MCBE-Script projects",
    "author": "@wuw.sh",
    "license": "MIT",
@@ -27,6 +27,12 @@
    "bin": {
       "create-mcpe-script": "dist/MCPE-Script-Creater.exe"
    },
+   "files": [
+      "dist",
+      "package.json",
+      "README.md",
+      "tsconfig.json"
+   ],
    "devDependencies": {
       "@types/prompts": "latest",
       "@types/bun": "latest",
