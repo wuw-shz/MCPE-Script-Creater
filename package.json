@@ -1,6 +1,6 @@
 {
-   "name": "create-mcpe-script-test",
-   "version": "1.7.8",
+   "name": "create-mcpe-script",
+   "version": "1.0.0",
    "description": "A tool to create simple MCBE-Script projects",
    "author": "@wuw.sh",
    "license": "MIT",
@@ -22,10 +22,10 @@
    "scripts": {
       "start": "bun src/main.ts",
       "dev": "bun src/main.ts --watch",
-      "compile": "bun build --compile --target=bun --minify --watch src/main.ts --outfile 'dist/MCPE-Script-Creater.exe'"
+      "compile": "bun build --compile --target=bun --minify --watch src/bun.ts --outfile 'dist/MCPE-Script-Creater.exe'"
    },
    "bin": {
-      "create-mcpe-script-test": "dist/main.exe"
+      "create-mcpe-script": "dist/MCPE-Script-Creater.exe"
    },
    "devDependencies": {
       "@types/prompts": "latest",

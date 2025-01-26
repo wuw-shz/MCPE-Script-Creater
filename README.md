@@ -1,4 +1,4 @@
-# create-mcpe-script-test <a href="https://npmjs.com/package/create-mcpe-script-test"><img src="https://img.shields.io/npm/v/create-mcpe-script-test" alt="npm package"></a> <a href="https://github.com/wuw-shz/MCPE-Script-Creater"><img src="https://img.shields.io/github/last-commit/wuw-shz/MCPE-Script-Creater?label=github" alt="github homepage"></a>
+# create-mcpe-script <a href="https://npmjs.com/package/create-mcpe-script"><img src="https://img.shields.io/npm/v/create-mcpe-script" alt="npm package"></a> <a href="https://github.com/wuw-shz/MCPE-Script-Creater"><img src="https://img.shields.io/github/last-commit/wuw-shz/MCPE-Script-Creater?label=github" alt="github homepage"></a>
 
 A tool to create simple MCPE-Script projects
 
@@ -7,11 +7,11 @@ A tool to create simple MCPE-Script projects
 With NPM
 
 ```bash
-npm create mcpe-script-test@latest
+npm create mcpe-script@latest
 ```
 
 With Bun
 
 ```bash
-bun create mcpe-script-test@latest
+bun create mcpe-script@latest
 ```
