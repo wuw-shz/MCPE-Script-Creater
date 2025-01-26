@@ -12,6 +12,9 @@ export async function create(info: Info): Promise<void> {
             0
          ]
       },
+      "capabilities": [
+         "script_eval"
+      ],
       "modules": [
          {
             "type": "data",

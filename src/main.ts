@@ -126,12 +126,14 @@ async function main() {
             });
       });
 
+      const groupedVersionsKeys = Object.keys(groupedVersions);
+
       const { selectedMinecraftVersion } = await prompts({
          type: "select",
          name: "selectedMinecraftVersion",
          message: "Choose a Minecraft version:",
-         choices: Object.keys(groupedVersions).map((mc) => ({
-            title: mc,
+         choices: groupedVersionsKeys.map((mc, i) => ({
+            title: i === 0 ? mc + color.reset(color.gray(' - (latest)')) : mc,
             value: mc,
          })),
       }, {
